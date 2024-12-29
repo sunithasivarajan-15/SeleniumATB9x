@@ -11,5 +11,6 @@ public class test01 {
         driver.get("https://app.vwo.com");
         driver.getTitle();
         System.out.println(driver.getTitle());
+        System.out.println(driver.getTitle());
 }
 }
