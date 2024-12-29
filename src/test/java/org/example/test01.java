@@ -9,6 +9,7 @@ public class test01 {
     public void test_selenium01(){
         WebDriver driver = new EdgeDriver();
         driver.get("https://app.vwo.com");
+        driver.getTitle();
         System.out.println(driver.getTitle());
 }
 }
